@@ -5,7 +5,8 @@ from dataclasses import dataclass
 import re
 import math
 import os  # needed for script file browsing
-from collections import deque, defaultdict  # <-- added
+from collections import deque, defaultdict  
+
 
 try:
     import serial  # pyserial
@@ -1469,3 +1470,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
